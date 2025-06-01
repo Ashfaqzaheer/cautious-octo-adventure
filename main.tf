@@ -11,7 +11,7 @@ module "vpc" {
 # Create Second VPC
 module "vpc2" {
   source     = "./modules/vpc"
-  cidr_block = "10.1.0.1/16"
+  cidr_block = "10.1.1.1/16"
   name       = "vpc2"
 }
 
